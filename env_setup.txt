@@ -1,0 +1,22 @@
+# ~/phoenix-worker/environments/python2/bin/python -m pip install --upgrade queryrunner_client                                 
+# ~/phoenix-worker/environments/python2/bin/python -m pip install --upgrade pygsheets                                          
+# ~/phoenix-worker/environments/python2/bin/python -m pip install --upgrade oauth2client
+# ~/phoenix-worker/environments/python2/bin/python -m pip install --upgrade psycopg2
+# ~/phoenix-worker/environments/python2/bin/python -m pip install --upgrade sqlalchemy
+# ~/phoenix-worker/environments/python2/bin/python -m pip install --upgrade pyhive
+# ~/phoenix-worker/environments/python2/bin/python -m pip install --upgrade unidecode
+# ~/phoenix-worker/environments/python2/bin/python -m pip install --upgrade google-auth-httplib2
+# ~/phoenix-worker/environments/python2/bin/python -m pip install --upgrade google-api-python-client
+
+install_package_python2.sh queryrunner_client
+install_package_python2.sh pygsheets         
+install_package_python2.sh pandas
+
+# # Not needed anymore
+# install_package_python2.sh oauth2client
+# install_package_python2.sh psycopg2
+# install_package_python2.sh google-auth-httplib2
+# install_package_python2.sh google-api-python-client
+# install_package_python2.sh sqlalchemy
+# install_package_python2.sh pyhive
+# install_package_python2.sh unidecode
